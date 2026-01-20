@@ -245,7 +245,7 @@ NetfIix<JGQ47wazXe1xYVBrkeDg-JOg7ODDQwWdR@JOg7ODDQwWdR-yVkCaBkTNp.gogolecloud.co
 
 
 Apa alamat IP asalnya? Hilangkan sanggahan pada alamat IP tersebut. ? 
-buka contoh file yang akan di analyst di thunderbhid  - setelah ketemu - jangan di klik dulu - cari more - view source - lihat isi header email 
+buka contoh file yang akan di analyst di thunderbid  - setelah ketemu - jangan di klik dulu - cari more - view source - lihat isi header email 
 buka web https://mha.azurewebsites.net/ dan copy paste kan seluruh isi header email tsb din web - lihat apa yang ingin di cari - hasil 
 jawaban : 209[.]85[.]167[.]226
 
