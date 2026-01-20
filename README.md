@@ -263,5 +263,114 @@ salin dan tempel di - web cyber cheff link tadi - opration pilih defang url -  r
 
 jawaban : hxxps[://]t[.]co/yuxfZm8KPg?amp==1
 
+# Kasus Phishing 2
+Skenario : Anda adalah Analis SOC Level 1. Beberapa email mencurigakan telah diteruskan kepada Anda dari rekan kerja lain. Anda harus mendapatkan detail dari setiap email agar tim Anda dapat menerapkan aturan yang sesuai untuk mencegah rekan kerja menerima email  spam/ phishing tambahan.
+
+Lampiran berbahaya dari email phishing yang diperiksa di Ruang Phishing sebelumnya telah diunggah ke Any Run untuk dianalisis. 
+
+Tugas : Selidiki analisis tersebut dan jawab pertanyaan-pertanyaan di bawah ini. 
+
+Tautan :  https://app.any.run/tasks/8bfd4c58-ec0d-4371-bfeb-52a334b69f59
+
+Jawablah pertanyaan-pertanyaan di bawah ini.
+AnyRun mengklasifikasikan email ini sebagai apa?
+caranya meng analysist buka tautan :  https://app.any.run/tasks/8bfd4c58-ec0d-4371-bfeb-52a334b69f59 - lihat informasi di dalam nya - lihat bagian paling atas any run  yang bewarna oranye - hasil  
+Suspicious activity
+
+Jawaban : Suspicious activity
+
+
+Apa nama file PDF tersebut?
+caranya meng analysist buka tautan :  https://app.any.run/tasks/8bfd4c58-ec0d-4371-bfeb-52a334b69f59 - lihat informasi di dalam nya - lihat bagian paling atas any run - hasil
+Payment-updateid.pdf
+MD5:
+4a2775eae2ebef41901a3f08d3b857c8
+Awal:
+22.07.2021, 10:45
+Total waktu:
+tahun 60-an
+Jawaban nya : Payment-updateid.pdf
+
+
+Berapakah hash SHA 256 untuk file PDF tersebut?
+Salin bagian  any run  - di gaian  MD5: 4a2775eae2ebef41901a3f08d3b857c8 - buka  web virus total - paste kan di virus total - lihat detailnya - HASIL
+atau bisa  langsung buka di bagian laporan text di any run langsung - lihat detailnya di situ - lihat di bagian - SHA 256 - MUNCUL HASIL 
+
+
+jAWABAN : cc6f1a04b10bcb168aeec8d870b97bd7c20fc161e8310b5bce1af8ed420e2c24
+
+
+Dua alamat IP manakah yang diklasifikasikan sebagai berbahaya? Hilangkan bahaya pada alamat IP tersebut. (jawaban: IP_ADDR,IP_ADDR )
+ buka di bagian laporan text di any run langsung - lihat detailnya di situ -Gulir kebawah  lihat di bagian Connections - di situ ada 2 alamat ip berbahaya - buka cyberchef - copy alamat email pastekan di cyber chef- rubah menjadi Defang URL dan Defang IP address gabungan  - muncul output 2[.]16[.]107[.]24:443 2[.]16[.]107[.]83:443
+  
+ 
+Jawaban : 2[.]16[.]107[.]24,2[.]16[.]107[.]83
+
+Proses Windows apa yang ditandai sebagai Lalu Lintas Berpotensi Buruk ?
+ke halaman tautan :  https://app.any.run/tasks/8bfd4c58-ec0d-4371-bfeb-52a334b69f59 - lihat kotak di bagian sebelah kiri - cari network threat  - di bagtian proses name - hasil - svchost.exe
+opsi ke 2 : lihat langsung di bagian detail - text report any run - THREATS - muncul hasil -  svchost.exe
+JAWABAN : svchost.exe
+
+
+
+# Kasus Phishing 3
+Skenario : Anda adalah Analis SOC Level 1. Beberapa email mencurigakan telah diteruskan kepada Anda dari rekan kerja lain. Anda harus mendapatkan detail dari setiap email agar tim Anda dapat menerapkan aturan yang sesuai untuk mencegah rekan kerja menerima email  spam/ phishing tambahan.
+
+Lampiran berbahaya dari email phishing yang diperiksa di Ruang Phishing sebelumnya telah diunggah ke Any Run untuk dianalisis. 
+
+Tugas : Selidiki analisis tersebut dan jawab pertanyaan-pertanyaan di bawah ini. 
+
+Tautan :  https://app.any.run/tasks/82d8adc9-38a0-4f0e-a160-48a5e09a6e83
+
+Jawablah pertanyaan-pertanyaan di bawah ini.
+
+Analisis ini diklasifikasikan sebagai apa?
+buka Tautan :  https://app.any.run/tasks/82d8adc9-38a0-4f0e-a160-48a5e09a6e83 - lihat informasi di dalam nya - lihat bagian paling atas any run  yang bewarna oranye - hasil 
+
+Jawaban : Malicious activity
+
+
+Apa nama file Excel tersebut?
+buka Tautan :  https://app.any.run/tasks/82d8adc9-38a0-4f0e-a160-48a5e09a6e83  - lihat bagian judul 
+Jawaban : CBJ200620039539.xlsx
+
+
+Berapakah hash SHA 256 untuk file tersebut?
+buka Tautan :  https://app.any.run/tasks/82d8adc9-38a0-4f0e-a160-48a5e09a6e83  - lihat bagian text report - cari SHA 256 - HASIL 
+JAWABAN : 5f94a66e0ce78d17afc2dd27fc17b44b3ffc13ac5f42d3ad6a5dcfb36715f3eb
+
+
+Domain mana yang terdaftar sebagai domain berbahaya? Hilangkan efek angker pada URL tersebut & kirimkan jawaban Anda dalam urutan abjad. (jawaban: URL1,URL2,URL3 ) ?
+buka Tautan :  https://app.any.run/tasks/82d8adc9-38a0-4f0e-a160-48a5e09a6e83  - LIHAT TEXT REPORT - GULIR BAWAH - CARI HTTP REQUEST - COPY ALAMAT IP - BUKA CYBERCHEF  - SETING KE DEFANG URL - HASIL 
+
+biz9holdings[.]com,findresults[.]site,ww38[.]findresults[.]site
+
+
+
+Alamat IP mana yang terdaftar sebagai berbahaya?  Hilangkan malware dari alamat IP tersebut & kirimkan jawaban dari terendah ke tertinggi. (jawaban: IP1, IP2, IP3 )
+HAMPI SAMA CARANYA SEPERTI YANG ATAS - CUMA YANG INI DI URUTKAN DARI YANG TERENDAH KE YANG TERTINGGI  
+JAWABAN : 75[.]2[.]11[.]242,103[.]224[.]182[.]251,204[.]11[.]56[.]48
+
+
+
+Kerentanan apa yang coba dieksploitasi oleh lampiran berbahaya ini?
+Tautan :  https://app.any.run/tasks/82d8adc9-38a0-4f0e-a160-48a5e09a6e83 - BUKA TEXT REPORT - LIHAT BAGIAN GENERAL INFO - di bagian tags - hasil CVE-2017-11882
+jawaban : CVE-2017-11882
+
+Kesimpulan
+Alat-alat yang dibahas di ruangan ini hanyalah sebagian dari alat yang dapat membantu Anda menganalisis email  phishing .
+
+Sebagai seorang pembela, Anda akan mengembangkan sendiri alat dan teknik pilihan Anda untuk melakukan analisis manual dan otomatis. 
+
+Berikut beberapa alat lain yang belum kita bahas secara detail di ruangan ini yang layak disebutkan:
+
+https://mxtoolbox.com
+https://phishtank.com
+https://www.spamhaus.org
+https://github.com/ninoseki/eml_analyzer
+Itu saja, teman-teman! Selamat berburu!
+
+
+
 
 
